@@ -11,7 +11,7 @@ public class HomePage extends BasePage {
 	}
 
 	// Elements
-	@FindBy(xpath = "//span[text()='My Account']")
+	@FindBy(xpath = "//div[@id='top-links']//a[normalize-space()='My Account']")
 	WebElement lnkMyaccount;
 
 	@FindBy(linkText = "Register")
